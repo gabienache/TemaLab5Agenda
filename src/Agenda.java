@@ -24,25 +24,15 @@ public class Agenda {
             option = SkeletonJava.readIntConsole("Option:");
             switch (option) {
                 case 1:
-                    opt = "Add";
-                    add();
-                    break;
+                    add();break;
                 case 2:
-                    opt = "Modify";
-                    modify();
-                    break;
+                    modify();break;
                 case 3:
-                    opt = "Delete";
-                    delete();
-                    break;
+                    delete();break;
                 case 4:
-                    opt = "Search";
-                    search();
-                    break;
+                    search();break;
                 case 5:
-                    opt = "Print";
-                    print();
-                    break;
+                    print();break;
                 case 6:
                     System.out.println("Bye...");
                     i = 6;
